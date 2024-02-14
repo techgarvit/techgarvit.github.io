@@ -1,11 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        header {
+            background-color: #f0f0f0;
+            /* Light gray background */
+            padding: 20px;
+            text-align: center;
+            /* Center the navigation links */
+        }
+
+        nav ul {
+            list-style-type: none;
+            /* Remove default bullets */
+            margin: 0;
+            /* Remove default margin */
+            padding: 0;
+            /* Remove default padding */
+        }
+
+        nav li {
+            display: inline-block;
+            /* Display links side-by-side */
+            margin-right: 70px;
+            /* Add spacing between links */
+        }
+
+        nav a {
+            text-decoration: none;
+            /* Remove underline from links */
+            color: #333;
+            /* Dark gray text color */
+        }
+
+        .main {
+            height: 750px;
+            width: 1412px;
+            position: relative;
+            border: 1px splid rgb(221, 191, 251);
+            background-color: skyblue;
+           
+
+
+        }
+
+        #box {
+            height: 750px;
+            width: 1400px;
+            position: absolute;
+        }
+
+        #box1 {
+            color: black;
+            font-style: italic;
+            position: absolute;
+            margin-top: 80px;
+            margin-left: 60px;
+            font-size: 100px;
+
+        }
+
+        #para {
+            position: absolute;
+            color: black;
+            font-style: italic;
+            margin-top: 250px;
+            margin-left: 70px;
+            font-size: 50px;
+
+        }
+
+        .box2 {
+            height: 750px;
+            width: 1412px;
+            position: relative;
+
+        }
+
+        #pic {
+            height: 750px;
+            width: 1412px;
+
+        }
+
+        #id {
+            height: 500px;
+            width: 500px;
+
+        }
+
+        #box3 {
+            height: 650px;
+            width: 1100px;
+            position: absolute;
+            border: 1px solid;
+            background-color: aliceblue;
+            margin-top: -700px;
+            margin-left: 150px;
+
+        }
+
+        #para1 {
+            text-align: center;
+            color: black;
+            font-size: xx-large;
+        }
+
+        #para2 {
+            color: lightslategray black;
+            font-size: xx-large;
+            text-align: center;
+        }
+
+        #para3 {
+            font-size: x-large;
+            margin-left: 10%;
+        }
+
+        #para4 {
+            font-size: x-large;
+            margin-left: 10%;
+            margin-left: 600px;
+            margin-top: -210px;
+        }
+
+        #para5 {
+            text-align: center;
+            font-size: larger;
+        }
+
+        .box4 {
+           border: 1px solid white;
+            height: 500px;
+            width: 1412px;
+            background-image: url(images/Marble-Desktop-Wallpaper.jpg);
+        }
+
+        #para6 {
+            height: 150px;
+            width: 400px;
+            border: 1px solid;
+            margin-left: 40%;
+            text-align: center;
+            
+        }
+
+        #para7 {
+            height: 150px;
+            width: 400px;
+            border: 1px solid;
+            margin-left: 70%;
+            margin-top: -343px;
+            text-align: center;
+        }
+
+        #para8 {
+            height: 150px;
+            width: 400px;
+            border: 1px solid;
+            margin-left: 70%;
+            margin-top: -3px;
+            text-align: center;
+        }
+
+        #para9 {
+            height: 310px;
+            width: 450px;
+            border: 1px solid;
+            margin-left: 5%;
+            margin-top: -330px;
+            background-image: url(images/laptop\ with\ hands.jpg);
+        }
+        #para0{
+            font-size: medium;
+        }
+        .box5{
+            border: 1px solid;
+            height: 200px;
+            width: 1412px;
+            background-color: rgba(42, 22, 67, 0.715);
+            text-align: center;
+        }
+        #pic1{
+            height: 40px;
+            width: 40px;
+            margin-left: 30px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #para10{
+            color: aliceblue;
+            font-size: 30px;
+        }
+        #para11{
+            margin-top: -10px;
+            margin-left: 84%;
+            
+        }
+        
+    </style>
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#box">Home</a></li>
+                <li><a href="#para1">About</a></li>
+                <li><a href="#para6">Portfolio</a></li>
+                <li><a href="#box6">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main">
+        <img id="box" src="images/garvit2.jpg.jpeg">
+        <h1 id="box1">GARVIT SHARMA</h1>
+        <p id="para">Software Developer <br>And<br> Web Developer</p>
+
+
+    </div>
+    <div class="box2">
+        <img id="pic" src="images/wallper.jpg">
+        <section id="box3">
+            <h1 id="para1">About Myself</h1>
+            <p id="para2">I'm a aspiring software developer and tryind to learn new skills. I am currently pursuing my
+                bachelor's degree in computer science from the A.K.T.U University. I'm also the leader of tech club in
+                my college.</p>
+            <p id="para2">______________________________________________________</p>
+            <p id="para3">*Web Developer <br><br>*Software Developer<br><br>*Front End Developer<br><br>*Back End
+                Developer</p>
+            <p id="para4">*SQL <br><br> *Salesforce<br><br>*c language</p>
+            <p id="para2">______________________________________________________</p>
+            <p id="para5">I'm seeking for challenging opportunities where i can fully use my skills for the success of
+                the organization.<br> Am open to work as a software developer and Data Scientist.</p>
+        </section>
+    </div>
+    <div class="box4">
+        <h1 id="para2">Portfolio</p>
+        </h1>
+        <h2 id="para6">Resume builder <p id="para0">This is a resume builder website. Created using HTML, CSS and java scirpt. this
+                will help you to create your resume in a very easy way.</p>
+        </h2>
+        <h2 id="para6">My portfolio Site <p id="para0">This website created using HTML, CSS and react. website is deployed using
+                Microsoft azure platform.</p>
+        </h2>
+        <h2 id="para7">Amazon website clone<p id="para0">This is a clone of the Amazon website. Created using HTML and CSS on the
+                visual studio code platform.</p>
+        </h2>
+        <h2 id="para8">Flipkart website clone<p id="para0">This is a clone of the Flipkart website. Created using HTML and CSS on
+                the visual studio code platform.</p>
+        </h2>
+        <p id="para9"></p>
+
+    </div>
+    <div class="box5">
+        <footer id="box6">
+
+            <a href="#"><img id="pic1" src="images/gmail.jpg" alt="Gmail"></a>
+            <a href="#"><img id="pic1" src="images/twitter.jpg" alt="Twitter"></a>
+            <a href="#"><img id="pic1" src="images/github.jpg" alt="Github"></a>
+            <a href="#"><img id="pic1" src="images/instagram symbol.jpg" alt="Instagram"></a>
+            <a href="#"><img id="pic1" src="images/linkin.jpg" alt="Linkined"></a>
+            <a href="#"><img id="pic1" src="images/youtube.jpg" alt="Youtube"></a>
+            <p id="para10">Created By Garvit Sharma</p>
+            <p id="para11">Copyright &copy; 2023 Your Website</p>
+          </footer>
+    </div>
+
 </body>
+
 </html>
